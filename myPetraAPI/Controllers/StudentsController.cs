@@ -27,7 +27,7 @@ namespace myPetraAPI.Controllers
                     return Ok(result);
                 }
 
-                return NotFound();
+                return NotFound("Student not found");
 
             }catch (Exception)
             {
